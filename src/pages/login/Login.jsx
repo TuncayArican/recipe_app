@@ -27,7 +27,8 @@ const Login = () => {
     <LoginContainer>
       <FormContainer>
         <StyledImg src={mealSvg} />
-        <Header>{"<Clarusway/>"}Recipe</Header>
+        <h5>Please do not forget to fill the form and click login in order to see the recipes</h5>
+        <Header>{"<Tuncay/>"}Recipe</Header>
         {/* login sayfasındaki yuvarlak olayın içindeki yazı (Header) */}
 
         <StyledForm onSubmit={handleSubmit}>
